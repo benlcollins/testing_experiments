@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: Call mom
+  completed: false
+
+two:
+  item: MyString
+  completed: false

@@ -1,0 +1,14 @@
+<div class="page-header">
+	<h1>Todo App</h1>
+</div>
+
+<ul class="list-group">
+	<% @todos.each do |todo| %>
+		<li class="list-group-item">
+			<button type="button" class="btn btn-default">Completed</button>
+			<%= todo.item %>
+		</li>
+	<% end %>
+</ul>
+
+<span class="glyphicon glyphicon-th-list"></span>&nbsp;&nbsp;<%= link_to "Add new item", new_todo_path %>
