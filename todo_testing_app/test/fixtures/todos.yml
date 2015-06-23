@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  item: Call mom
+  item: Clean the house
   completed: false
 
 two:
-  item: MyString
+  item: Do the laundry
   completed: false
