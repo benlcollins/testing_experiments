@@ -6,10 +6,8 @@
 	<% @todos.each do |todo| %>
 		<li class="list-group-item">
 			<%= todo.item %>
-				
-				<%= button_to "Delete", {:controller => :todos, :action => :destroy, :id => todo.id}, 
-					{:method => :delete, class: "btn btn-danger btn-sm"} %>
-
+			<%= button_to "Delete", {:controller => :todos, :action => :destroy, :id => todo.id}, 
+				{:method => :delete, class: "btn btn-danger btn-sm"} %>
 		</li>
 	<% end %>
 </ul>
