@@ -8,7 +8,7 @@ RSpec.describe Todo, :type => :model do
 	end
 
 	it "doesn't save new todo with blank item content" do
-		new_todo = Todo.new(:item => "")
+		new_todo = Todo.new
 		expect(new_todo).not_to be_valid
 	end
 end
